@@ -20,7 +20,10 @@ function SalesCard() {
 
     // useEffect(()=>{}, []);
     useEffect(() => {
-        
+        console.log(minDate.toISOString().slice(0, 10));
+        console.log(maxDate.toISOString().slice(0, 10));
+
+
         const dmin = minDate.toISOString().slice(0, 10); 
         const dmax = maxDate.toISOString().slice(0, 10); 
 
